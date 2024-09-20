@@ -20,6 +20,7 @@ eg [batch_size, channels = 4, sequence_length = 20000]
 3) NMD efficacy scoring head
    - Global pooling layer
    - Fully connected layer
+   - Batch Normalisation
    - Sigmoid activation
 
 Output: NMD efficacy score (NES) between 0 and 1
