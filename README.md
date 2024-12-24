@@ -5,15 +5,24 @@ Input: one-hot encoded (padded, if necessary) nucleotide sequence of length 20kb
 
 eg [batch_size, channels = 4, sequence_length = 20000]
 [ ...
- [0. 0. 0. 0.]
- [0. 0. 0. 0.]
- [0. 0. 0. 0.]
- [1. 0. 0. 0.]
- [0. 0. 0. 1.]
- [0. 0. 1. 0.]
- [0. 0. 0. 1.]
- [0. 0. 1. 0.]
- [0. 0. 0. 1.]
+
+[0. 0. 0. 0.]
+ 
+[0. 0. 0. 0.]
+ 
+[0. 0. 0. 0.]
+ 
+[1. 0. 0. 0.]
+
+[0. 0. 0. 1.]
+
+[0. 0. 1. 0.]
+
+[0. 0. 0. 1.]
+
+[0. 0. 1. 0.]
+
+[0. 0. 0. 1.]
  ...]
  
 1) Convolutions and attention pooling
