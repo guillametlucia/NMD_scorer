@@ -1,3 +1,7 @@
+# Retrieve cDNA sequence, and features needed for interpretability of model.
+# Transcript on positive strand: 5' UTR, exons and introns, 3' UTR
+# On negative strand: 3' UTR, exons and introns, 5' UTR
+
 library(dplyr)
 library(biomaRt)
 
