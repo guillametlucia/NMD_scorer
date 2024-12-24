@@ -1,4 +1,5 @@
-# NMD_scorer: an Enformer inspired model to predict whether all copies of one mRNA will be degraded by nonsense-mediated decay (1), none will (0) or a degree in between.
+# NMD_scorer
+## An Enformer inspired model to predict whether all copies of an mRNA sequence will be degraded by nonsense-mediated decay (1), none will (0) or a degree in between.
 
 
 Input: one-hot encoded (padded, if necessary) nucleotide sequence of length 20kbp and mask (mask out padding). 
