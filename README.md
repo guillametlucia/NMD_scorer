@@ -26,6 +26,14 @@ eg [batch_size, channels = 4, sequence_length = 20000]
 
 Output: NMD efficacy score (NES) between 0 and 1
 
-## NMDscorer.py: code for the model.
+## NMDscorer.py: 
+Code for the model.
 
-## getfeatures: for 
+## get_genomic_features.r: 
+Retrieve features from each mRNA sequence for interpretability.
+
+## optuna_hyperparamtuning.py: 
+File to tune model hyperparameters with Optuna.
+
+## example_train_evaluate.ipynb: 
+Example notebook of how to train and evaluate model.
